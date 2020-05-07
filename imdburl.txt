@@ -1,0 +1,6 @@
+https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2001-01-01&languages=en&sort=boxoffice_gross_us,desc&count=250
+https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2001-01-01&languages=en&sort=boxoffice_gross_us,desc&count=250
+https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-05-05&languages=en&sort=boxoffice_gross_us,desc&count=250
+For hver interation efter endt trawl, plus 250 til count&start=251
+https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-05-05&languages=en&sort=boxoffice_gross_us,desc&count=250&start=251&ref_=adv_nxt
+https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-05-05&languages=en&sort=boxoffice_gross_us,desc&count=250&start=751
