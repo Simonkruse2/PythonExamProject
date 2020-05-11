@@ -6,6 +6,7 @@ from time import sleep
 from random import randint
 from time import time
 
+
 # Check type of the requested resource
 # print(type(movies))
 # Check how many resources were gathered
@@ -15,11 +16,11 @@ newurl = 1
 
 # A request would go here
 # Get all 250 movies on a single page out of 296 pages (all movies from 2000-2020)
-for i in range(296): 
+for i in range(2): 
     start_time = time()
     requests = i
     requests += 1
-    sleep(randint(1,3))
+    sleep(1)
     current_time = time()
     elapsed_time = current_time - start_time
     url = 'https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-05-05&languages=en&sort=boxoffice_gross_us,desc&count=250&start='+str(newurl)
@@ -39,7 +40,7 @@ for i in range(296):
         actors=[]
         genres=[]
         # Get metascore rating
-        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate') is not None:
+        if movies[i].find('div', class_ = 'ratings-metascore') is not None:
             movies[i].encode('utf-8')   
             # Get first movies title
             title = movies[i].h3.a.text
@@ -79,11 +80,13 @@ for i in range(296):
                 'actors': actors,
             }
             movies_before_pd.append(movie)
+            print(movie)
     print('Request: {}; Frequency: {} requests/s'.format(requests, requests/elapsed_time))
     allmovies.append(movies_before_pd)
     print(url)
     print(newurl)
 finished_movies = pd.DataFrame(allmovies)
+allmovies.to.csv('ikkeendt.csv')
 finished_movies.to_csv('movie_ratings.csv')
 print(allmovies)
 # clear_output(wait = True)

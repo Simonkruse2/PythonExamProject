@@ -39,7 +39,7 @@ for i in range(296):
         actors=[]
         genres=[]
         # Get metascore rating
-        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate') is not None:
+        if movies[i].find('div', class_ = 'ratings-metascore') is not None:
             movies[i].encode('utf-8')   
             # Get first movies title
             title = movies[i].h3.a.text

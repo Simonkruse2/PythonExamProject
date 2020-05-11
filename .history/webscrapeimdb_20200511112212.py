@@ -6,6 +6,7 @@ from time import sleep
 from random import randint
 from time import time
 
+
 # Check type of the requested resource
 # print(type(movies))
 # Check how many resources were gathered
@@ -15,7 +16,7 @@ newurl = 1
 
 # A request would go here
 # Get all 250 movies on a single page out of 296 pages (all movies from 2000-2020)
-for i in range(296): 
+for i in range(2): 
     start_time = time()
     requests = i
     requests += 1
@@ -32,15 +33,15 @@ for i in range(296):
     type(html_soup)
 
     # Get all movies from imdb from year 2000 to present 
-    movies = html_soup.find_all('div', class_ = 'lister-item mode-advanced')
+    movies = html_soup.find_all('div', class_ = 'lister-item mode-advanced')   
     movies_before_pd=[]
     for i in range(250):
         directors=[]
         actors=[]
         genres=[]
         # Get metascore rating
-        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate') is not None:
-            movies[i].encode('utf-8')   
+        if movies[i].find('div', class_ = 'ratings-metascore') is not None:
+
             # Get first movies title
             title = movies[i].h3.a.text
 
@@ -79,12 +80,11 @@ for i in range(296):
                 'actors': actors,
             }
             movies_before_pd.append(movie)
-    print('Request: {}; Frequency: {} requests/s'.format(requests, requests/elapsed_time))
+            print(movie)print('Request: {}; Frequency: {} requests/s'.format(requests, requests/elapsed_time))
     allmovies.append(movies_before_pd)
     print(url)
     print(newurl)
 finished_movies = pd.DataFrame(allmovies)
 finished_movies.to_csv('movie_ratings.csv')
-print(allmovies)
-# clear_output(wait = True)
+clear_output(wait = True)
 # print(finished_movies)

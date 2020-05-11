@@ -11,7 +11,7 @@ from time import time
 # Check how many resources were gathered
 # print(len(movie))
 allmovies = []
-newurl = 1
+newurl = 3001
 
 # A request would go here
 # Get all 250 movies on a single page out of 296 pages (all movies from 2000-2020)
@@ -39,7 +39,7 @@ for i in range(296):
         actors=[]
         genres=[]
         # Get metascore rating
-        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate') is not None:
+        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate').text is not None:
             movies[i].encode('utf-8')   
             # Get first movies title
             title = movies[i].h3.a.text

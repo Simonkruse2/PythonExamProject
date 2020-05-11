@@ -11,7 +11,7 @@ from time import time
 # Check how many resources were gathered
 # print(len(movie))
 allmovies = []
-newurl = 1
+newurl = 3001
 
 # A request would go here
 # Get all 250 movies on a single page out of 296 pages (all movies from 2000-2020)

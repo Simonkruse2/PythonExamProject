@@ -19,7 +19,7 @@ for i in range(296):
     start_time = time()
     requests = i
     requests += 1
-    sleep(randint(1,3))
+    sleep(1)
     current_time = time()
     elapsed_time = current_time - start_time
     url = 'https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-05-05&languages=en&sort=boxoffice_gross_us,desc&count=250&start='+str(newurl)
@@ -39,7 +39,7 @@ for i in range(296):
         actors=[]
         genres=[]
         # Get metascore rating
-        if movies[i].find('div', class_ = 'ratings-metascore') is not None and movies[i].find('span', class_ = 'certificate') is not None:
+        if movies[i].find('div', class_ = 'ratings-metascore') is not None:
             movies[i].encode('utf-8')   
             # Get first movies title
             title = movies[i].h3.a.text
