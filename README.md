@@ -16,9 +16,9 @@ og der er en konklusion til sidst i notebooken, men det vil vi selvfølgelig sel
 <b>Simon Kristopher Kruse Bentzen</b> - cph-sb365@cphbusiness.dk
 
 ## Formål
-Hvad er sammenhængen mellem indtjening, brugerbedømmelser og enten skuespillere(ikke implementeret), instruktører(ikke implementeret) eller filmens genre på imdb.com
-Vi vil først og fremmest få webscrabingen til at fungere og dernæst vha. et neuralt netværk finde ud af hvilken genre, skuespiller(ikke implementeret) 
-eller instruktør(ikke implementeret) der er mest indbringende set over en årrække på 20 år(10000 mest indbringende film).
+	Hvad er sammenhængen mellem indtjening, brugerbedømmelser og enten skuespillere(ikke implementeret), instruktører(ikke implementeret) eller filmens genre på imdb.com
+	Vi vil først og fremmest få webscrabingen til at fungere og dernæst vha. et neuralt netværk finde ud af hvilken genre, skuespiller(ikke implementeret) 
+	eller instruktør(ikke implementeret) der er mest indbringende set over en årrække på 20 år(10000 mest indbringende film).
 
 ## Teknologier
 Beautifulsoup (Webscraping)
