@@ -1,11 +1,11 @@
-# PythonExamProject
+# Python Exam Project
 
 Vores program køres ved at kalde "python imdbscraper.py", hvilket vil kalde budgetscraper.py når den er færdig.
 Vi har lavet dataanalyse i en jupyter notebook kaldet IMDB_cluster_final.ipynb. Outputtet er gemt fra da vi selv kørte det
 og der er en konklusion til sidst i notebooken, men det vil vi selvfølgelig selv berøre til eksamenen.
 
 
-Jacob Folke Hildebrandt - cph-jh439@cphbusiness.dk
+<b>Jacob Folke Hildebrandt</b> - cph-jh439@cphbusiness.dk
 
 Renz Oliver de Chavez - cph-rd78@cphbusiness.dk
 
