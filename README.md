@@ -5,15 +5,17 @@ Vi har lavet dataanalyse i en jupyter notebook kaldet IMDB_cluster_final.ipynb. 
 og der er en konklusion til sidst i notebooken, men det vil vi selvfølgelig selv berøre til eksamenen.
 
 
-<p align ="center"><b>Jacob Folke Hildebrandt</b> cph-jh439@cphbusiness.dk</p>-
 
-<b>Renz Oliver de Chavez</b> - cph-rd78@cphbusiness.dk
+<p align ="center"><b>Jacob Folke Hildebrandt</b> - cph-jh439@cphbusiness.dk  </p>
 
-<b>Vincent Tran </b> - cph-vt39@cphbusiness.dk
+<p align ="center"><b>Renz Oliver de Chavez</b> - cph-rd78@cphbusiness.dk  </p>
 
-<b>Mads-Ulrik Korsgaard Hansen </b> - cph-mh752@cphbusiness.dk
+<p align ="center"> <b>Vincent Tran </b> - cph-vt39@cphbusiness.dk  </p>
 
-<b>Simon Kristopher Kruse Bentzen</b> - cph-sb365@cphbusiness.dk
+<p align ="center"> <b>Mads-Ulrik Korsgaard Hansen </b> - cph-mh752@cphbusiness.dk  </p>
+
+<p align ="center"> <b>Simon Kristopher Kruse Bentzen</b> - cph-sb365@cphbusiness.dk  </p>
+
 
 ## Formål
 Hvad er sammenhængen mellem indtjening, brugerbedømmelser og enten skuespillere(ikke implementeret), instruktører(ikke implementeret) eller filmens genre på imdb.com
