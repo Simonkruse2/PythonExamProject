@@ -6,9 +6,13 @@ og der er en konklusion til sidst i notebooken, men det vil vi selvfølgelig sel
 
 
 Jacob Folke Hildebrandt - cph-jh439@cphbusiness.dk
+
 Renz Oliver de Chavez - cph-rd78@cphbusiness.dk
+
 Vincent Tran - cph-vt39@cphbusiness.dk
+
 Mads-Ulrik Korsgaard Hansen - cph-mh752@cphbusiness.dk
+
 Simon Kristopher Kruse Bentzen - cph-sb365@cphbusiness.dk
 
 ## Formål :
